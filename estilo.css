@@ -8,9 +8,17 @@ box-sizing: border-box;
      background-color: #000000;
      height: 100px;
      display: flex;
+     transition: all 300ms ease;
      
  }
 
+ .nav__conjunto :hover{
+     color: white;
+ }
+
+ 
+
+ 
  
 nav a {
 
@@ -23,6 +31,7 @@ nav a {
     flex-direction: row;
     margin: auto;
     text-decoration: none;
+    
 
 }
 /* estilo index */
@@ -95,12 +104,22 @@ nav a {
         display: flex;
         text-transform: uppercase;
         background-color: black;
-        height: 10 0px;
-        margin-bottom: 0px;
+        height: 100px;
         align-items: center;
         justify-content: center;
+        transition: all 300ms ease;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin-top: 10px;
         
     }
+
+    .items__footer :hover{
+        color: white;
+    }
+    
+    
 
     .span{color: #008000;
         display: flex;
@@ -132,6 +151,9 @@ nav a {
         font-size: 50px;
         
     }
+    
+
+    
 /* fuente comun para todo el sitio web */
    body
     {
@@ -140,6 +162,9 @@ font-family:-apple-system, BlinkMacSystemFont,
  'Open Sans', 'Helvetica Neue',
  sans-serif ;
  background-color: beige;
+ position: relative;
+ padding-bottom: 120px;
+ min-height: 100vh;
 }
 
 /* comienzo estilo pagina mi experincia */
@@ -206,7 +231,11 @@ font-family:-apple-system, BlinkMacSystemFont,
  }
 
  /* comienzo estilo porque estudiar */
-
+.titulo__principal{
+    background-color: #008000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .parrafo__main{
     text-align: center;
     font-weight: 700;
@@ -303,6 +332,8 @@ margin-bottom: 10px;
  @media screen and (max-width:1024px) {
      .body{
          background-color: #008000;
+         
+         
      }
      
     
@@ -348,7 +379,9 @@ margin-bottom: 10px;
         margin-left: 10px;
         margin-right: 10px;
     }
-    
+    .imagen{
+        margin-top: 10px;
+    }
 
     .imagen__izq{
         margin: auto;
