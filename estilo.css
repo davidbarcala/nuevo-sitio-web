@@ -17,7 +17,7 @@
 }
 
 nav a {
-  color: #008000;
+  color: #06c4f3;
   display: flex;
   text-transform: uppercase;
   justify-content: center;
@@ -101,7 +101,7 @@ header div {
 }
 
 .span {
-  color: #008000;
+  color: #06c4f3;
   display: flex;
   text-transform: uppercase;
   height: 50px;
@@ -112,7 +112,7 @@ header div {
 }
 
 .items__footer {
-  color: #008000;
+  color: #06c4f3;
   display: flex;
   text-transform: uppercase;
   align-items: center;
@@ -144,7 +144,7 @@ body {
   height: 70px;
   margin-top: 10px;
   align-items: center;
-  background-color: #008000;
+  background-color: #06c4f3;
   margin-bottom: 10px;
 }
 
@@ -197,7 +197,7 @@ body {
 
 /* comienzo estilo porque estudiar */
 .titulo__principal {
-  background-color: #008000;
+  background-color: #06c4f3;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -266,7 +266,7 @@ body {
   display: flex;
   height: 400px;
   width: 400px;
-  background-color: #008000;
+  background-color: #06c4f3;
   flex-flow: column;
   padding: 10px;
   justify-content: center;
@@ -286,7 +286,7 @@ body {
 /* estilo media querys */
 @media screen and (max-width: 1024px) {
   .body {
-    background-color: #008000;
+    background-color: #06c4f3;
   }
 }
 @media screen and (max-width: 600px) {
