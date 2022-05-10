@@ -121,7 +121,7 @@
         
         
     
-        .span{color: #008000;
+        .span{color:#06c4f3;
             display: flex;
             text-transform: uppercase;
             height: 50px;
@@ -134,7 +134,8 @@
         
         }
     
-        .items__footer{color: #008000;
+        .items__footer
+        { color:#06c4f3 ;
             display: flex;
             text-transform: uppercase;
             align-items:center;
@@ -331,7 +332,7 @@
       /* estilo media querys */
      @media screen and (max-width:1024px) {
          .body{
-             background-color: #008000;
+             background-color:#06c4f3;
              
              
          }

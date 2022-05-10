@@ -101,7 +101,7 @@ header div {
 }
 
 .span {
-  color: #008000;
+  color: #06c4f3;
   display: flex;
   text-transform: uppercase;
   height: 50px;
@@ -112,7 +112,7 @@ header div {
 }
 
 .items__footer {
-  color: #008000;
+  color: #06c4f3;
   display: flex;
   text-transform: uppercase;
   align-items: center;
@@ -286,7 +286,7 @@ body {
 /* estilo media querys */
 @media screen and (max-width: 1024px) {
   .body {
-    background-color: #008000;
+    background-color: #06c4f3;
   }
 }
 @media screen and (max-width: 600px) {
