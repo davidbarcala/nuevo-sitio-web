@@ -1,0 +1,20 @@
+{
+  "name": "nuevo-sitio-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass estilo.scss ./css/estilo.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidbarcala/nuevo-sitio-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidbarcala/nuevo-sitio-web/issues"
+  },
+  "homepage": "https://github.com/davidbarcala/nuevo-sitio-web#readme"
+}
