@@ -181,13 +181,21 @@
       margin-bottom: 10px;
   }
   
-  .titulo__me{
+  .titulo__me, .ancla__me{
       display: flex;
       text-transform: uppercase;
-  
-  
+      text-decoration: none;
+      justify-content: center;
+      text-align: center;
+      justify-items: center;
+      
       
   }
+  .ancla__me{
+    color: white;
+    margin-left: 5px;
+  }
+  
   
   .contenido__me{
       display: flex;
@@ -421,11 +429,16 @@
          margin-bottom: 10px;
      }
   
-     /* inicio estilo mi experiencia */
+     /* inicio estilo mi experiencia responsive*/
   
-     .header__me, .titulo__me {
+     .header__me, .titulo__me, .ancla__me{
          display: flex;
          text-align: center;
+         justify-items: center;
+         justify-content: center;
+     }
+     .ancla__me{
+       
      }
      .contenido__me{
          display: flex;
@@ -455,10 +468,6 @@
   
   }
 
-  .titulo__me, .a{
-      text-decoration: none;
-  }
-  
-  
+
   
    }
