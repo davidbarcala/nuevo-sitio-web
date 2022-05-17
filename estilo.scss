@@ -423,7 +423,7 @@
     
        /* inicio estilo mi experiencia */
     
-       .header__me, .titulo__me {
+       .header__me, .titulo__me, .ancla__me {
            display: flex;
            text-align: center;
        }
@@ -455,7 +455,7 @@
     
     }
 
-    .titulo__me, .a{
+    h2 a{
         text-decoration: none;
     }
     
