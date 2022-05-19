@@ -32,18 +32,16 @@
     align-items: center;
     justify-items: center;
     
-      
- }
+ } 
+
  .nav__items{
      display: flex;
-    text-align: justify;
+    margin: 0 20px;
+    
+    
  }
 
 
-
- .nav__items, a :hover{
-     color: white;
- }
 
  .nav__menu{
      display: none;
@@ -255,6 +253,10 @@
       margin-top: 10px;
       margin-bottom: 10px;
   }
+
+  .subtitulo__principal{
+      text-align: center;
+  }
   .parrafo__main{
       text-align: center;
       font-weight: 700;
@@ -364,15 +366,9 @@
   
    @media screen and (max-width:600px) {
       
+    
       .nav__conjunto{
-          flex-direction: row;
-          display: flex;
-          align-items: center; 
-        
-
-      } 
-      .nav__conjunto{
-          display: none;
+          /* color: #000000; */
           
       }
 
@@ -393,8 +389,21 @@
           
          
       }
-      #nav__movil :target{
-          display: block;
+
+      #nav__movil{
+          background-color: gray;
+          position: fixed;
+          top: 0;
+          left: 0;
+          height: 100vh;
+          width: 80vh;
+          max-width: 500px;
+          transform: translateX(-200%);
+      }
+      #nav__menu :target{
+          
+        transform: translateX(250%);
+          
       }
       
   
@@ -404,6 +413,7 @@
           text-align: center;
           justify-content: center;
           margin-bottom: 15px;
+          margin-top: 15px;
       
       }
       .contenedor__medio{
@@ -428,6 +438,7 @@
           text-align: justify;
           margin-left: 10px;
           margin-right: 10px;
+          margin-top: 25px;
       }
       .imagen{
           margin-top: 10px;
@@ -477,11 +488,9 @@
          text-align: center;
          justify-items: center;
          justify-content: center;
-     }
-     .ancla__me{
-       
-     }
-     .contenido__me{
+          
+        }
+         .contenido__me {
          display: flex;
          flex-direction: column;
      }
