@@ -367,10 +367,7 @@
    @media screen and (max-width:600px) {
       
     
-      .nav__conjunto{
-          /* color: #000000; */
-          
-      }
+    
 
       .nav__icono, .nav__menu{
           display: flex;
