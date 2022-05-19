@@ -3,37 +3,52 @@
   box-sizing: border-box;
   
   }
-  /* estilo general nav */
-  .nav__conjunto{
-       background-color: #000000;
-       height: 100px;
-       display: flex;
-       transition: all 300ms ease;
-       
-   }
-  
-   .nav__conjunto :hover{
-       color: white;
-   }
-  
-   
-  
-   
-   
-  nav a {
-  
-      color: #06c4f3;
-      display: flex;
-      text-transform: uppercase;
-      justify-content: center ;
-      align-items:center;
-      height: 50px;
-      flex-direction: row;
-      margin: auto;
-      text-decoration: none;
-      
-  
+  /* estilo general header y nav */
+  .header{
+    background-color: #000000;
+    height: 200px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: justify;
+    justify-content: space-between;
+
+    /* transition: all 300ms ease; */
   }
+  .nav__icono, .nav__items{
+      display: flex;
+      color: #06c4f3;
+      font-size: 30px;
+      text-decoration: none;
+      text-transform: uppercase;  
+      transition: all 300ms ease;
+
+  }
+
+ .nav__conjunto, a{
+     display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+      
+ }
+ .nav__items{
+     display: flex;
+    text-align: justify;
+ }
+
+
+
+ .nav__items, a :hover{
+     color: white;
+ }
+
+ .nav__menu{
+     display: none;
+ }
+  
   /* estilo index */
     
   .titulo__principal{
@@ -49,16 +64,11 @@
       text-align: center;
       align-items: center;
       font-weight: 700;
-  
-  
-      
-  
   }
   .contenedor__principal{
       display: flex;
       
-  
-  }
+    }
   
   .imagen__izq{
   
@@ -338,12 +348,13 @@
   
   
     /* estilo media querys */
-   @media screen and (max-width:1024px) {
+   @media screen and (min-width:1024px) {
        .body{
            background-color:#06c4f3;
-           
-           
+               
        }
+       
+     
        
       
    }
@@ -354,8 +365,38 @@
    @media screen and (max-width:600px) {
       
       .nav__conjunto{
-          flex-direction: column;
+          flex-direction: row;
+          display: flex;
+          align-items: center; 
+        
+
       } 
+      .nav__conjunto{
+          display: none;
+          
+      }
+
+      .nav__icono, .nav__menu{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 40px;
+          margin: auto;
+         
+       
+      }
+      .nav__menu{
+          color: #06c4f3;
+          cursor: pointer;
+          z-index: 1;
+          margin-right: 5px;
+          
+         
+      }
+      #nav__movil :target{
+          display: block;
+      }
+      
   
       /* inicio estilo index responsive */
   
