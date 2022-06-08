@@ -249,20 +249,34 @@
       
    }
    .cont__section{
-       display: flex;
-       position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
    }
-   .div__section{
+  
+
+   .video__me{
+       height: 50%;
+       width: 50%;
+       margin: 10px;
+       border-radius: 10px;
+   }
+   .parrafo__section{
+    height: 50%;
+    width: 50%;
+    text-transform: uppercase;
        align-items: center;
-       justify-content: center;
-       /* background-color: red; */
-       text-transform: uppercase;
-       text-align: justify;
+       justify-items: center;
+       margin-top: 10px;
+       margin-bottom: 10px;
        margin-left: 10px;
        margin-right: 10px;
+       text-align: justify;
        font-weight: 700;
-  
-  
+    
+       
    }
   
    /* comienzo estilo porque estudiar */
@@ -334,6 +348,7 @@
        font-weight: 700;
    }
    .titulo__form{
+       
        text-align: center;
        font-weight: 700;
        text-transform: uppercase; 
@@ -365,6 +380,77 @@
   .boton__enviar{
       color: black;
   }
+
+
+  /* comienzo estilo pagina quien soy */
+
+
+  .contenedor__qs {
+      display: grid;
+      grid-template-columns:30px,30px,30px,30px;
+      grid-template-rows:30px,30px,30px,30px; 
+      column-gap: 10px;
+      row-gap: 10px;    
+  }
+
+  .parrafo__qs{
+      display: flex;
+      text-align: justify;
+      color: #000000;
+      font-size: xx-large;
+      justify-content: center;
+      margin-left: 5px;
+      margin-right: 5px;
+    
+      
+  }
+
+  .ancor__qs{
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #736af1;
+      font-size: xx-large;
+      margin-top: 10px;
+  }
+
+  .icon__qs {
+
+      display: flex;
+      height: 200px;
+      width: 200px;
+      margin-top: 180px;
+
+  }
+
+
+  .contenedor__qs, p{
+      display: flex;
+      text-transform: uppercase;
+      
+      margin-top: 0;
+  }
+
+
+  .gracias__qs, img{
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+
+
+  }
+
+  .sub__qs,p{
+    
+    text-transform: uppercase;
+    font-size: xx-large;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+
+ 
+
+  
   
   
   
@@ -528,33 +614,117 @@
    
 
          .contenido__me {
-         display: flex;
+         display: block;
          flex-direction: column;
      }
      .img__me{
+         display: block;
          width: 95%;
          margin: auto;
          margin-top: 10px;
          margin-bottom: 10px;
      }
      .texto__me{
+         display: block;
+         flex-direction: column;
          width: 95%;
          margin: auto;
          margin-top: 10px;
          margin-bottom: 10px;
          text-align: justify;
   }
-  .cont__section, .div__section{
-      display: flex;  
-  }
+
   .parrafo__section{
-      text-align: justify;
-      margin-right: 10px;
-      margin-left: 10px;
-      font-weight: 700;
-  
+
+        
+      display: block;
+      
+         width: 95%;
+         
+         margin-top: 10px;
+         margin-bottom: 10px;
+         text-align: justify;
+  }
+  .video__me{
+      
+     
+    width: 100%;
+    margin: auto;
+   
+
+
   }
 
+  .cont__section{
+    display: flex;
+    flex-direction: column;
+   
+
+  }
+
+  /* inicio estilo quien soy */
+
+
+  .contenedor__qs {
+    display: grid;
+    grid-template-columns:10px,10px,10px,10px;
+    grid-template-rows:10px,10px,10px,10px; 
+    column-gap: 10px;
+    row-gap: 10px;
+    
+
+   
+   
+    
+    
+    
+    
+}
+
+.icon__qs {
+
+    display: flex;
+    height: 80px;
+    width: 80px;
+   
+
+}
+
+
+.contenedor__qs, p{
+    display: flex;
+    text-transform: uppercase;
+   
+    margin-top: 40px;
+    align-content: center;
+}
+
+.ancor__qs{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(35, 37, 36);
+   text-align: center;
+   font-size: larger;
+}
+
+
+.ancor__qs :hover{
+    animation: alternate-reverse;
+}
+
+.gracias__qs, img{
+    margin-top: 50px;
+    width: 95vw;
+    height: 300px;
+}
+
+.sub__qs,p{
+    justify-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 200px;
+    
+}
 
   
    }
